@@ -1,0 +1,53 @@
+.sidebar-layout {
+  .global-header {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 0;
+    box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+  }
+
+  .action-menus {
+    display: flex;
+    align-items: center;
+    height: 64px;
+    line-height: 64px;
+  }
+
+  .action-menu {
+    display: inline-block;
+    height: 100%;
+    padding: 0 12px;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: rgba(0, 0, 0, 0.65);
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.025) !important;
+    }
+
+    i {
+      padding: 4px;
+      vertical-align: middle;
+    }
+
+    > i {
+      color: rgba(0, 0, 0, 0.65);
+    }
+
+    .ant-avatar {
+      margin-right: 12px;
+    }
+  }
+}
+
+.action-menu-dropdown {
+  min-width: 160px;
+  .ant-dropdown-menu-item {
+    a {
+      display: inline-block;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+#loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1000;
+}
+
+#loading,
+#loading:after {
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+#loading:after {
+  content: '';
+  display: block;
+  background-image: url(//si1.go2yd.com/get-image/0fOxKQtpE80);
+  position: fixed;
+  background-repeat: no-repeat;
+  z-index: 1001;
+  left: 50%;
+  top: 50%;
+  height: 28px;
+  width: 140px;
+  margin-left: -70px;
+  margin-top: -25px;
+  background-size: 100% 100%;
+}
+
+.yidian-night #loading {
+  background-color: #333;
+}
+
+.yidian-night #loading:after {
+  background-image: url(//si1.go2yd.com/get-image/0fOxY9asGmm);
+}

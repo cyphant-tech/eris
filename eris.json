@@ -1,0 +1,88 @@
+{
+  "type": "multiple",
+  "appPath": "./",
+  "distPath": "./dist/",
+  "templates": {
+    "app": [
+      {
+        "name": "app-template-admin",
+        "value": "app-template-admin",
+        "description": "基于 Ant Design 的中后台模板",
+        "type": "local",
+        "options": [
+          {
+            "type": "list",
+            "name": "layout",
+            "message": "请选择布局方式",
+            "choices": [
+              {
+                "name": "侧边菜单布局",
+                "value": "sidebar"
+              },
+              {
+                "name": "顶部菜单布局",
+                "value": "topmenu"
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "name": "theme",
+            "message": "请选择主题",
+            "choices": [
+              {
+                "name": "暗黑",
+                "value": "dark"
+              },
+              {
+                "name": "明亮",
+                "value": "light"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "app-template-admin-vue",
+        "value": "app-template-admin-vue",
+        "description": "基于 Ant Design 和 Vue 的中后台模板",
+        "type": "local",
+        "options": []
+      },
+      {
+        "name": "app-template-h5",
+        "value": "app-template-h5",
+        "description": "H5 模板，React、Vue、Vue3 可选",
+        "type": "local",
+        "options": [
+          {
+            "type": "list",
+            "name": "_eris_cli_framework",
+            "message": "请选择 JS 框架",
+            "choices": [
+              {
+                "name": "React",
+                "value": "react"
+              },
+              {
+                "name": "Vue2",
+                "value": "vue"
+              },
+              {
+                "name": "Vue3",
+                "value": "vue3"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "component": [
+      {
+        "name": "component-react",
+        "value": "component-react",
+        "description": "React 组件"
+      }
+    ]
+  }
+}

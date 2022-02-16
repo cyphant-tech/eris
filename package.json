@@ -1,0 +1,53 @@
+{
+  "name": "eris-cli",
+  "version": "1.0.0",
+  "description": "Eris 脚手架工具，快速创建 React、Vue 应用，模板丰富、功能齐全、开箱即用",
+  "license": "ISC",
+  "main": "index.js",
+  "bin": {
+    "eris": "index.js",
+    "eris-cli": "index.js"
+  },
+  "repository": "",
+  "scripts": {
+    "start": "tsc --watch",
+    "build": "tsc",
+    "dev-tpl": "node ./index.js dev-tpl",
+    "link": "tsc && yarn global add $PWD",
+    "dev": "node ./index.js"
+  },
+  "engines": {
+    "node": ">=8.15.0"
+  },
+  "dependencies": {
+    "@gitbeaker/node": "^32.1.2",
+    "ansi-escapes": "^4.3.0",
+    "axios": "^0.21.1",
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
+    "cross-spawn": "^7.0.3",
+    "del": "^5.1.0",
+    "ejs": "^2.7.2",
+    "inquirer": "^7.0.0",
+    "node-watch": "^0.6.3",
+    "ora": "^4.0.3",
+    "simple-git": "^2.44.0",
+    "supports-hyperlinks": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/cross-spawn": "^6.0.2",
+    "@types/ejs": "^2.6.3",
+    "@types/inquirer": "^6.5.0",
+    "@types/node": "^14.11.8",
+    "@typescript-eslint/eslint-plugin": "^4.4.0",
+    "@typescript-eslint/parser": "^4.4.0",
+    "eslint": "^7.11.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2",
+    "typescript": "^4.0.3"
+  },
+  "_moduleAliases": {
+    "@": "dist"
+  }
+}
