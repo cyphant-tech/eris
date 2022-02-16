@@ -1,0 +1,22 @@
+# source
+/src
+/rollup.config.js
+
+# format and lint config
+/tsconfig.json
+/.prettierrc
+/.prettierignore
+/.eslintrc
+/.eslintignore
+/.editorconfig
+
+# lock file
+/.package-lock.json
+/yarn.lock
+
+# build files and only dev file
+/templates/dist
+/templates/test.txt
+/templates/tpl.config.*
+
+node_modules

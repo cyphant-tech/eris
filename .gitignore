@@ -1,0 +1,16 @@
+.DS_Store
+node_modules
+package-lock.json
+yarn.lock
+
+dist
+!/dist
+
+*.log
+*.log.*
+
+# for test dir
+/fe
+/www
+.fecache
+.vscode
