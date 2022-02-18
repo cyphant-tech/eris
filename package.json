@@ -1,6 +1,6 @@
 {
   "name": "eris-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Eris 脚手架工具，快速创建 React、Vue 应用，模板丰富、功能齐全、开箱即用",
   "license": "ISC",
   "main": "index.js",
